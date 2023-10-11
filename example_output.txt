@@ -1,0 +1,34 @@
+OCD_INC1111111 1 event
+ ID: 9a9a9a9a-9a9a-9a9a-9a9a-9a9a9a9a9a9a
+@timestamp: 2023-10-08T16:21:01.010Z
+Asset: example-hostname
+Asset key: example-hostname
+Asset user: user@example.com
+CustomerName: Customer Name
+Destination: -
+Event time: 1691010101.0101021
+Info collection description: Collected in Azure Sentinel
+Info collection last hash: 1691010101
+Info collection time: 1691010101
+Info description: Description of the alert that triggered
+Info ind priority: 42
+Info is high value asset: Yes
+Info is high value subnet: Yes
+Info is high value user: Yes
+Info killchain: 1
+Info mitre ID: T1010
+Info search time: 1691010101.010
+Info sub name: PAT-404
+Log time: 1691010101
+Logsource: SourceOfLogs
+Parent process: program.exe
+Parent process commandline: "program.exe" with lots of argument
+Process ID: 4
+Process commandline: program.exe also with some arguments
+Process md5: d41d8cd98f00b204e9800998ecf8427e
+Process name: program.exe
+Process path: C:\Path\To\pogram.exe
+Process sha1: 67a74306b06d0c01624fe0d0249a570f4d093747
+Process sha256: 6a946d70551b54494c40fccae3221e46124cac45d66f4542eedf09f6cbe337fd
+ServiceRegion: NO
+Source: -
