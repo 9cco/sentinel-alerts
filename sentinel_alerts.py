@@ -16,6 +16,10 @@ def main(argv):
     
     input = readInputFile(input_path)
     alert_dict = formatAlertDict(input)
+
+    if 'incident url' in alert_dict:
+        print("Debug hello world")
+        os.system("echo " + alert_dict['incident url'] + " | clip")
     
     report = generateReportString(alert_dict)
     
@@ -24,7 +28,7 @@ def main(argv):
     
     writeStringToFile(output_path, report)
     
-    cmd = settings_dict['text-program-path'] + " " + output_path
+    cmd = settings_dict['text-program-path'] + " \"" + output_path + "\""
     os.system(cmd)
     
     if settings_dict['auto-update']:
